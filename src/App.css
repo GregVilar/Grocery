@@ -65,3 +65,9 @@ form {
   text-align: center;
   font-size: 16px;
 }
+
+.grocer {
+  text-align: center;
+  position: relative;
+  top: 20px;
+}

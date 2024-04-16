@@ -25,7 +25,8 @@ function App() {
       .sort((a, b) => Number(a.isChecked) - Number(b.isChecked));
 
   function handleAddItem(item) {
-    setItems((items) => [...items, item]);
+    const newItem = { ...item, id: Date.now() };
+    setItems((items) => [...items, newItem]);
     console.log(items);
   }
 

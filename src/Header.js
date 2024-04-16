@@ -1,7 +1,8 @@
 function Header() {
   return (
-    <div>
-      <h1>ALAM MO BA GAR</h1>
+    <div className="grocer">
+      <h1>Grocery App</h1>
+      <img src={"./grocer.png"}></img>
     </div>
   );
 }
